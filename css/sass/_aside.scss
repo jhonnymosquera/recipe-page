@@ -1,0 +1,50 @@
+.aside {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	align-items: center;
+	width: 216px;
+	height: 370px;
+	padding: 20px 0px;
+	float: right;
+	box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+	border-radius: 12px;
+
+	div {
+		width: 60%;
+		text-align: left;
+		color: #4f4f4f;
+
+		i {
+			float: left;
+			margin-right: 10px;
+			font-size: 30px;
+			padding-top: 5px;
+		}
+
+		span {
+			display: block;
+			color: #bdbdbd;
+			font-size: 10px;
+			font-weight: bold;
+			margin-bottom: 5px;
+			text-transform: uppercase;
+		}
+
+		p {
+			font-weight: bold;
+			color: #333333;
+			font-size: 14px;
+		}
+	}
+
+	.aside-color {
+		i {
+			color: #f2994a;
+		}
+
+		p {
+			color: #f2994a;
+		}
+	}
+}
